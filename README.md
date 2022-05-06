@@ -1,1 +1,1 @@
-# CSIT321-OnkoDICOM-Mini-Project
+# CSIT321 OnkoDICOM Mini Project
