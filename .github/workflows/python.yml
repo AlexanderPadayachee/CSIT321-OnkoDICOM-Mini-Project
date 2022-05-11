@@ -36,4 +36,4 @@ jobs:
         pip install pytest
         sudo apt-get update
         sudo apt-get upgrade
-        # python -m pytest test
+        python -m pytest test
