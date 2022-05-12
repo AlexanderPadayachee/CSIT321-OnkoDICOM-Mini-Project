@@ -10,8 +10,6 @@ import sys
 class Controller:
     def __init__(self, rootDir = None):
         self.rootDir = rootDir
-        self.mainWindow = QtWidgets.QMainWindow()
-        self.displayWindow = QtWidgets.QMainWindow()
 
         self.Model = Model(self ,self.rootDir)
         self.View = View(self, self.rootDir)
@@ -20,10 +18,10 @@ class Controller:
         self.images = []
 
     def showWindow(self):
-        self.mainWindow.show()
+        self.View.showMain()
 
     def directroyInput(self):
-        dlg = QtWidgets.QFileDialog(self.mainWindow)
+        dlg = QtWidgets.QFileDialog(self.View.mainWindow)
         dlg.setFileMode(QtWidgets.QFileDialog.Directory)
         foldernames = QtCore.QStringListModel
         if dlg.exec():
@@ -38,12 +36,13 @@ class Controller:
             self.Model.OpenDicom(foldernames[0])
             #print(self.dcmData[10])
             if len(self.dcmData) > 0:
+                self.images = self.Model.DicomToImage(self.dcmData)
+                self.View.viewImage(self.images[0])
                 self.View.ViewToggle()
             else:
                 logging.warning("No Dicom Files Found in Folder. Maintaining Current View State")
                 return(-1)
-            self.images = self.Model.DicomToImage(self.dcmData)
-            self.View.viewImage(self.images[0])
+
 
     #def DisplayDicom(self):
 
