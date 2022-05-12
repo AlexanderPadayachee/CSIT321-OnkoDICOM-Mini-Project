@@ -40,8 +40,8 @@ jobs:
         wget -P ~ https://zenodo.org/record/5147737/files/DICOM-RT-01.zip
         mkdir test/testdata
         mkdir test/batchtestdata
-        unzip ~/DICOM-RT-02.zip -d test/testdata
-        unzip ~/DICOM-RT-02.zip -d test/batchtestdata
+        unzip ~/DICOM-RT-01.zip -d test/testdata
+        unzip ~/DICOM-RT-01.zip -d test/batchtestdata
         sudo chmod -R 777 test/testdata
         sudo chmod -R 777 test/batchtestdata
         # sudo Xvfb :1 -screen 0 1024x768x24 </dev/null &
