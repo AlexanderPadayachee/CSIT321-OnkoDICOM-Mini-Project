@@ -10,7 +10,7 @@ jobs:
       DISPLAY: ':99.0'
     steps:
     - uses: actions/checkout@v1
-    - name: Set up Python 3.8
+    - name: Set up Python 3.10
       uses: actions/setup-python@v1
       with:
         python-version: 3.8
@@ -20,6 +20,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install -r pre-requirements.txt
+        pip install -r requirements.txt
         pip install pytest-xvfb pytest-qt
     - name: Lint with flake8
       run: |
@@ -28,12 +30,23 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: PySide6
-      run: |
-        pip install PySide6
     - name: Test with pytest
       run: |
         pip install pytest
         sudo apt-get update
-        sudo apt-get upgrade
-        # python -m pytest test
+        sudo apt-get install xvfb libxkbcommon-x11-0 herbstluftwm libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xfixes0 libopengl0 freeglut3 freeglut3-dev
+        # install test data
+        sudo apt-get install wget unzip
+        wget -P ~ https://zenodo.org/record/5147737/files/DICOM-RT-01.zip
+        mkdir test/testdata
+        mkdir test/batchtestdata
+        unzip ~/DICOM-RT-02.zip -d test/testdata
+        unzip ~/DICOM-RT-02.zip -d test/batchtestdata
+        sudo chmod -R 777 test/testdata
+        sudo chmod -R 777 test/batchtestdata
+        # sudo Xvfb :1 -screen 0 1024x768x24 </dev/null &
+        /sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -screen 0 1920x1200x24 -ac +extension GLX
+        sleep 3
+        herbstluftwm &
+        sleep 1
+        python -m pytest test
