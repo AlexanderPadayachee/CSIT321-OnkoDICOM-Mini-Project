@@ -3,6 +3,8 @@ from PySide6 import QtCore
 from Model.Model import Model
 from View.View import View
 import logging
+import numpy as np
+import PIL
 
 import sys
 class Controller:
@@ -15,6 +17,7 @@ class Controller:
         self.View = View(self, self.rootDir)
         self.dcmData = []
         self.dcmMisc = []
+        self.images = []
 
     def showWindow(self):
         self.mainWindow.show()
@@ -33,10 +36,19 @@ class Controller:
             self.dcmData = []
             self.dcmMisc = []
             self.Model.OpenDicom(foldernames[0])
+            #print(self.dcmData[10])
             if len(self.dcmData) > 0:
                 self.View.ViewToggle()
             else:
                 logging.warning("No Dicom Files Found in Folder. Maintaining Current View State")
+                return(-1)
+            self.images = self.Model.DicomToImage(self.dcmData)
+            self.View.viewImage(self.images[0])
+
+    #def DisplayDicom(self):
+
+
+
 
 
 
