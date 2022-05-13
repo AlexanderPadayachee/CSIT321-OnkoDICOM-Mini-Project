@@ -14,27 +14,16 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.8
-    - name: Install plastimatch
-      run: |
-       sudo apt-get install plastimatch
-    - name: Install dependencies
+    - name: Install requirements
       run: |
         python -m pip install --upgrade pip
         pip install -r pre-requirements.txt
         pip install -r requirements.txt
         pip install pytest-xvfb pytest-qt
-    - name: Lint with flake8
-      run: |
-        pip install flake8
-        # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
+    - name: pytest w/ test data
       run: |
         pip install pytest
         sudo apt-get update
-        sudo apt-get install xvfb libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xfixes0 libopengl0 freeglut3 freeglut3-dev
         # install test data
         sudo apt-get install wget unzip
         wget -P ~ https://zenodo.org/record/5147737/files/DICOM-RT-01.zip
@@ -44,4 +33,4 @@ jobs:
         unzip ~/DICOM-RT-01.zip -d test/batchtestdata
         sudo chmod -R 777 test/testdata
         sudo chmod -R 777 test/batchtestdata
-        python -m pytest test
+        python -m pytest --cov=src test/
