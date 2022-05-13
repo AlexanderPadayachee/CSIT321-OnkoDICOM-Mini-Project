@@ -33,4 +33,4 @@ jobs:
         unzip ~/DICOM-RT-01.zip -d test/batchtestdata
         sudo chmod -R 777 test/testdata
         sudo chmod -R 777 test/batchtestdata
-        python -m pytest --cov=src test/
+        python -m pytest main.py
