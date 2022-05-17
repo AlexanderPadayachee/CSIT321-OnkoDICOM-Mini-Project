@@ -44,6 +44,9 @@ class Controller:
                 return(-1)
 
 
+    def close(self):
+        self.close()
+
     #def DisplayDicom(self):
 
 
