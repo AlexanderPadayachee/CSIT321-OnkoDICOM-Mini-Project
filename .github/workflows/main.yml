@@ -22,4 +22,4 @@ jobs:
         pip install pytest-xvfb pytest-qt
     - name: pytest w/ test data
       run: |
-        python -m pytest test
+        # python -m pytest test
