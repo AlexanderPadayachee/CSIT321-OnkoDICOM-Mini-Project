@@ -27,10 +27,10 @@ jobs:
         # install test data
         sudo apt-get install wget unzip
         wget -P ~ https://zenodo.org/record/5147737/files/DICOM-RT-01.zip
-        mkdir test/testdata
-        mkdir test/batchtestdata
-        unzip ~/DICOM-RT-01.zip -d test/testdata
-        unzip ~/DICOM-RT-01.zip -d test/batchtestdata
-        sudo chmod -R 777 test/testdata
-        sudo chmod -R 777 test/batchtestdata
-        python -m pytest test
+        # mkdir test/testdata
+        # mkdir test/batchtestdata
+        # unzip ~/DICOM-RT-01.zip -d test/testdata
+        # unzip ~/DICOM-RT-01.zip -d test/batchtestdata
+        # sudo chmod -R 777 test/testdata
+        # sudo chmod -R 777 test/batchtestdata
+        # python -m pytest test
