@@ -7,12 +7,12 @@ import PySide6
 from Controller.Controller import Controller
 
 
-if __name__ == "__main__":
+# I did this to use pytest/CI on it, hope it's ok - Allen
+def main():
     rootDir = sys.argv[0]
     logging.info("startup success")
 
-
-    ## GUI setup
+    # GUI setup
     app = PySide6.QtWidgets.QApplication(sys.argv)
 
     mainController = Controller(rootDir)
@@ -21,5 +21,9 @@ if __name__ == "__main__":
     mainController.showWindow()
     app.exec()
     logging.info("GUI exec Successful")
+
+
+if __name__ == "__main__":
+    main()
 
     sys.exit()
