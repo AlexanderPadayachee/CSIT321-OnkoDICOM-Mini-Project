@@ -3,7 +3,7 @@ import os
 import sys
 import PySide6
 
-from main import main
+from main.Main import main
 from Controller.Controller import Controller
 from PySide6 import QtCore
 

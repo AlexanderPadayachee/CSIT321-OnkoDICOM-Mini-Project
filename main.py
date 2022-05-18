@@ -7,8 +7,7 @@ import PySide6
 from Controller.Controller import Controller
 
 
-# I did this to use pytest/CI on it, hope it's ok - Allen
-def main():
+if __name__ == "__main__":
     rootDir = sys.argv[0]
     logging.info("startup success")
 
@@ -21,9 +20,5 @@ def main():
     mainController.showWindow()
     app.exec()
     logging.info("GUI exec Successful")
-
-
-if __name__ == "__main__":
-    main()
 
     sys.exit()
