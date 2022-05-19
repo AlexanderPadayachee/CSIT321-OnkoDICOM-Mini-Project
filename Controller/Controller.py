@@ -11,7 +11,7 @@ class Controller:
     def __init__(self, rootDir = None):
         self.rootDir = rootDir
 
-        self.Model = Model(self ,self.rootDir)
+        self.Model = Model(self, self.rootDir)
         self.View = View(self, self.rootDir)
         self.dcmData = []
         self.dcmMisc = []
@@ -33,19 +33,20 @@ class Controller:
         else:
             self.dcmData = []
             self.dcmMisc = []
-            self.Model.OpenDicom(foldernames[0])
-            #print(self.dcmData[10])
+            OpenData = self.Model.OpenDicom(foldernames[0])
+            self.dcmData = OpenData[0]
+            self.dcmMisc = OpenData[1]
+
             if len(self.dcmData) > 0:
                 self.images = self.Model.DicomToImage(self.dcmData)
                 self.View.viewImage(self.images[0])
-                self.View.ViewToggle()
+                logging.info("Image Array Length = " + str(len(self.images)))
+                logging.info("Dicom Array Length = " + str(len(self.dcmData)))
+                self.View.ViewToggle(self.dcmData, self.images)
             else:
                 logging.warning("No Dicom Files Found in Folder. Maintaining Current View State")
                 return(-1)
 
-
-    def close(self):
-        self.close()
 
     #def DisplayDicom(self):
 

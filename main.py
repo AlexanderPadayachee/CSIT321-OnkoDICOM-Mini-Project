@@ -8,10 +8,17 @@ from Controller.Controller import Controller
 
 
 if __name__ == "__main__":
+    for handler in logging.root.handlers[:]:
+        logging.root.removeHandler(handler)
+
+    logging.basicConfig(filename  = "OnkoLog.log", format="%(asctime)s %(message)s", datefmt="%m/%d/%Y %I:%M:%S %p")
+
+
     rootDir = sys.argv[0]
     logging.info("startup success")
 
-    # GUI setup
+
+    ## GUI setup
     app = PySide6.QtWidgets.QApplication(sys.argv)
 
     mainController = Controller(rootDir)
@@ -20,5 +27,6 @@ if __name__ == "__main__":
     mainController.showWindow()
     app.exec()
     logging.info("GUI exec Successful")
+    logging.info("END SESSION \n\n")
 
     sys.exit()
