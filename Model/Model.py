@@ -5,8 +5,9 @@ from pydicom import dcmread
 from PIL import Image, ImageEnhance
 import numpy as np
 
+
 class Model:
-    def __init__(self, Controller,rootDir = None):
+    def __init__(self, Controller, rootDir=None):
         self.rootDir = rootDir
 
     def OpenDicom(self, directory):
@@ -18,27 +19,27 @@ class Model:
         for i in dirList:
             ds = dcmread(i, force=True)
             try:
-                temp = ds.get_item((0x0020,0x1041)).value
+                temp = ds.get_item((0x0020, 0x1041)).value
                 TempDcmArray.append(ds)
             except:
                 TempMiscArray.append(ds)
-            #print(ds.get_item((0x0020,0x1041)).value)
+            # print(ds.get_item((0x0020,0x1041)).value)
         self.SortDicom(TempDcmArray)
-        return([TempDcmArray, TempMiscArray])
+        return ([TempDcmArray, TempMiscArray])
 
     def SortDicom(self, array):
-        array.sort(key = lambda x:x.get_item((0x0020,0x1041)).value, reverse = False)
-        return(array)
+        array.sort(key=lambda x: x.get_item((0x0020, 0x1041)).value, reverse=False)
+        return (array)
 
     def DicomToImage(self, dicoms):
         images = []
         for i in dicoms:
             try:
                 arr = i.pixel_array.astype(float)
-                rescaled_im = (np.maximum(arr,0)/arr.max())*255
+                rescaled_im = (np.maximum(arr, 0) / arr.max()) * 255
                 final_image = np.uint8(rescaled_im)
-                patientImage=Image.fromarray(final_image)
+                patientImage = Image.fromarray(final_image)
                 images.append(patientImage)
             except:
                 logging.info("Importing DICOM Files without pixel data")
-        return(images)
+        return (images)

@@ -7,8 +7,10 @@ import numpy as np
 import PIL
 
 import sys
+
+
 class Controller:
-    def __init__(self, rootDir = None):
+    def __init__(self, rootDir=None):
         self.rootDir = rootDir
 
         self.Model = Model(self, self.rootDir)
@@ -26,7 +28,7 @@ class Controller:
         foldernames = QtCore.QStringListModel
         if dlg.exec():
             foldernames = dlg.selectedFiles()
-        #print(foldernames[0])
+        # print(foldernames[0])
 
         if len(foldernames) < 1 or len(foldernames) > 1:
             logging.warning("File Selection Error. Maintaining Current View State")
@@ -45,14 +47,6 @@ class Controller:
                 self.View.ViewToggle(self.dcmData, self.images)
             else:
                 logging.warning("No Dicom Files Found in Folder. Maintaining Current View State")
-                return(-1)
+                return (-1)
 
-
-    #def DisplayDicom(self):
-
-
-
-
-
-
-
+    # def DisplayDicom(self):
