@@ -34,5 +34,5 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        sudo apt-get install libopengl0 ffmpeg libsm6 libxext6
-        python -m pytest test
+        # sudo apt-get install libopengl0 ffmpeg libsm6 libxext6
+        # python -m pytest test
