@@ -7,30 +7,29 @@ import numpy as np
 
 class Model:
     def __init__(self, Controller,rootDir = None):
-        self.Controller = Controller
         self.rootDir = rootDir
 
     def OpenDicom(self, directory):
         strInput = directory + "/*.dcm"
 
         dirList = glob.glob(strInput)
-
+        TempDcmArray = []
+        TempMiscArray = []
         for i in dirList:
             ds = dcmread(i, force=True)
             try:
                 temp = ds.get_item((0x0020,0x1041)).value
-                self.Controller.dcmData.append(ds)
+                TempDcmArray.append(ds)
             except:
-                self.Controller.dcmMisc.append(ds)
+                TempMiscArray.append(ds)
             #print(ds.get_item((0x0020,0x1041)).value)
-        self.SortDicom()
+        self.SortDicom(TempDcmArray)
+        return([TempDcmArray, TempMiscArray])
 
-    def SortDicom(self):
-        self.Controller.dcmData.sort(key = lambda x:x.get_item((0x0020,0x1041)).value, reverse = False)
+    def SortDicom(self, array):
+        array.sort(key = lambda x:x.get_item((0x0020,0x1041)).value, reverse = False)
+        return(array)
 
-    # def findOrientations(self):
-    #     for i in self.Controller.dcmData:
-    #         print(i[0x20, 0x37])
     def DicomToImage(self, dicoms):
         images = []
         for i in dicoms:

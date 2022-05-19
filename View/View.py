@@ -8,8 +8,8 @@ import io
 
 
 class View:
-    def __init__(self, Controller, rootDir = None):
-        self.Controller = Controller
+    # very messy, doesn't conform to MVC or QT standards. Each window should be it's own class
+    def __init__(self, controller, rootDir = None):
         self.rootDir = rootDir
 
         self.mainWindow = QtWidgets.QMainWindow()
@@ -22,7 +22,7 @@ class View:
         self.button = QtWidgets.QPushButton("Select Directory")
 
         self.mainWindow.setMenuWidget(self.button)
-        self.button.clicked.connect(self.Controller.directroyInput)
+        self.button.clicked.connect(controller.directroyInput)
 
         self.displayWindow.setWindowTitle("Mini Project Group 1 // DICOM DISPLAY")
         #self.displayWindow.setFixedSize(QtCore.QSize(1000, 1000))
@@ -58,28 +58,30 @@ class View:
 
         self.displayWindow.setCentralWidget(widget)
 
+        ## the next attribute setups are digusting and dont make sense. Data should not be stored in the view object.
+        ## If you find a way to send data from the Controller to the view when an event listener in the view is
+        ## triggered please implement it here.
+        ## It is static data though and will not change state when running the code.
+        self.dcmData = []
+        self.images = []
 
-
-
-    def ViewToggle(self):
+    def ViewToggle(self, dcmData,images):
+        self.images = images
+        self.dcmData = dcmData
         self.mainWindow.close()
         self.displayWindow.show()
-        text1 = "Scan Position:   " + str(self.Controller.dcmData[0].get_item((0x0020, 0x1041)).value) + "\n"
+        text1 = "Scan Position:   " + str(dcmData[0].get_item((0x0020, 0x1041)).value) + "\n"
         text2 = "Series Position:  0"
 
         self.textLabel.setText(text1 + text2)
 
         self.slider.setMinimum(1)
-        self.slider.setMaximum(len(self.Controller.dcmData))
+        self.slider.setMaximum(len(dcmData))
         self.slider.setValue(1)
         self.slider.setSingleStep(1)
         self.UpdateImage(True)
+
         self.displayWindow.resize(QtCore.QSize(1600, 500))
-        #self.displayWindow.move(QtWidgets.QApplication.desktop().screen().rect().center() - self.displayWindow.rect().center())
-
-        #self.displayWindow.setFixedSize(self.displayWindow.sizeHint())
-
-
 
     def viewImage(self, picture):
         data = ImageQt(picture)
@@ -90,17 +92,13 @@ class View:
         index = int(self.slider.value() - 1)
         if(forceInit == True):
             index = 0
-        image = self.Controller.images[index]
+        image = self.images[index]
         self.viewImage(image)
-        text1 = "Scan Position:   " + str(self.Controller.dcmData[index].get_item((0x0020, 0x1041)).value) + "\n"
+        text1 = "Scan Position:   " + str(self.dcmData[index].get_item((0x0020, 0x1041)).value) + "\n"
         text2 = "Series Position: " + str(index + 1)
 
         self.textLabel.setText(text1+text2)
-        self.DicomInfo.setText(str(self.Controller.dcmData[index]))
-
-
-
-
+        self.DicomInfo.setText(str(self.dcmData[index]))
 
     def showMain(self):
         self.mainWindow.show()
