@@ -3,11 +3,7 @@
 
 name: Python application
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push, pull_request]
 
 permissions:
   contents: read
@@ -38,7 +34,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        sudo apt update
-        sudo apt upgrade
-        sudo apt install libopengl0
+        sudo apt-get update
+        sudo apt-get upgrade
+        sudo apt-get install libopengl0
         python -m pytest test
