@@ -1,18 +1,17 @@
 import pytest
 import os
 import sys
-import PySide6
 
-from main import main
 from Controller.Controller import Controller
-from PySide6 import QtCore
 
 
-def test_case(qtbot):
-    test_app = main.main()
-    qtbot.addWidget(test_app)
+def test_dicom_to_image():
+    path = 'img/Pat01'
+    fullpath = os.path.join(path, sys.argv[0])
 
-    # click in the Greet button and make sure it updates the appropriate label
-    qtbot.mouseClick(test_app.button_greet, QtCore.Qt.LeftButton)
+    assert Controller(fullpath)
 
-    assert test_app.greet_label.text() == "Hello!"
+
+
+
+

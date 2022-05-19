@@ -19,7 +19,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r pre-requirements.txt
         pip install -r requirements.txt
-        pip install pytest-xvfb pytest-qt
     - name: pytest w/ test data
       run: |
-        # python -m pytest test
+        python -m pytest test
