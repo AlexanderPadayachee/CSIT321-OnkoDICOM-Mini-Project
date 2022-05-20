@@ -12,13 +12,13 @@ if __name__ == "__main__":
 
     logging.basicConfig(filename="OnkoLog.log", format="%(asctime)s %(message)s", datefmt="%m/%d/%Y %I:%M:%S %p")
 
-    rootDir = sys.argv[0]
+    root_dir = sys.argv[0]
     logging.info("startup success")
 
     # GUI setup
     app = PySide6.QtWidgets.QApplication(sys.argv)
 
-    mainController = Controller(rootDir)
+    mainController = Controller(root_dir)
     logging.info("GUI init Successful")
 
     mainController.show_window()
