@@ -3,19 +3,17 @@ import os
 import sys
 import PySide6
 
-from View.View import View
-from Model.Model import Model
 from Controller.Controller import Controller
 
 
-def test_app():
+def test_controller():
     test_dir = sys.argv[0]
+
+    # core dump if this is not in the code
     test_application = PySide6.QtWidgets.QApplication(sys.argv)
 
-    test_controller = Controller(test_dir)
+    assert Controller(test_dir)
 
-    test_controller.show_window()
-    test_application.exec()
 
 
 
