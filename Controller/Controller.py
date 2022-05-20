@@ -16,7 +16,7 @@ class Controller:
         self.Model = Model(self, self.root_dir)
         self.View = View(self, self.root_dir)
         self.dcm_data = []
-        self.dcmMisc = []
+        self.dcm_misc = []
         self.images = []
 
     def show_window(self):
@@ -34,10 +34,10 @@ class Controller:
             logging.warning("File Selection Error. Maintaining Current View State")
         else:
             self.dcm_data = []
-            self.dcmMisc = []
+            self.dcm_misc = []
             open_data = open_dicom(folder_names[0])
             self.dcm_data = open_data[0]
-            self.dcmMisc = open_data[1]
+            self.dcm_misc = open_data[1]
 
             if len(self.dcm_data) > 0:
                 self.images = dicom_to_image(self.dcm_data)

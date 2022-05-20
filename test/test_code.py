@@ -14,7 +14,7 @@ def test_app():
 
     test_controller = Controller(test_dir)
 
-    test_controller.showWindow()
+    test_controller.show_window()
     test_application.exec()
 
 
