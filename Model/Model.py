@@ -15,7 +15,7 @@ def dicom_to_image(dicom):
             final_image = np.uint8(rescaled_im)
             patient_image = Image.fromarray(final_image)
             images.append(patient_image)
-        except ImportWarning:
+        finally:
             logging.info("Importing DICOM Files without pixel data")
     return images
 
@@ -36,7 +36,7 @@ def open_dicom(directory):
         try:
             temp = ds.get_item((0x0020, 0x1041)).value
             temp_dcm_array.append(ds)
-        except UserWarning:
+        finally:
             temp_misc_array.append(ds)
         # print(ds.get_item((0x0020,0x1041)).value)
     sort_dicom(temp_dcm_array)
