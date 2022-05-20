@@ -21,7 +21,7 @@ if __name__ == "__main__":
     mainController = Controller(rootDir)
     logging.info("GUI init Successful")
 
-    mainController.showWindow()
+    mainController.show_window()
     app.exec()
     logging.info("GUI exec Successful")
     logging.info("END SESSION \n\n")
