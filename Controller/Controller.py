@@ -1,6 +1,6 @@
 from PySide6 import QtWidgets
 from PySide6 import QtCore
-from Model.Model import Model, open_dicom, dicom_to_image
+from Model.Model import Model
 from View.View import View
 import logging
 import numpy as np
@@ -35,12 +35,12 @@ class Controller:
         else:
             self.dcm_data = []
             self.dcm_misc = []
-            open_data = open_dicom(folder_names[0])
+            open_data = Model.open_dicom(folder_names[0])
             self.dcm_data = open_data[0]
             self.dcm_misc = open_data[1]
 
             if len(self.dcm_data) > 0:
-                self.images = dicom_to_image(self.dcm_data)
+                self.images = Model.dicom_to_image(self.dcm_data)
                 self.View.view_image(self.images[0])
                 logging.info("Image Array Length = " + str(len(self.images)))
                 logging.info("Dicom Array Length = " + str(len(self.dcm_data)))
