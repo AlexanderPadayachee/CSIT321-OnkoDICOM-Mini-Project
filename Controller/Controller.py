@@ -7,54 +7,45 @@ import numpy as np
 import PIL
 
 import sys
+
+
 class Controller:
-    def __init__(self, rootDir = None):
-        ## setup attributes and create model and view
-        self.rootDir = rootDir
-        self.Model = Model(self, self.rootDir)
-        self.View = View(self, self.rootDir)
-        self.dcmData = [] # DICOM files that contain pixel data are stored here as pydicom objects
-        self.dcmMisc = [] # DICOM files that contain no pixel data are stored here as pydicom objects
+    def __init__(self, root_dir=None):
+        # setup attributes and create model and view
+        self.root_dir = root_dir
+        self.Model = Model(self.root_dir)
+        self.View = View(self, self.root_dir)
+        self.dcm_data = []  # DICOM files that contain pixel data are stored here as pydicom objects
+        self.dcm_misc = []  # DICOM files that contain no pixel data are stored here as pydicom objects
         self.images = []  # DICOM images are stored here as PIL objects
 
-    def showWindow(self): #self explainatory
-        self.View.showMain()
+    def show_window(self):  # self-explanatory
+        self.View.show_main()
 
-
-    def directroyInput(self):
-        #This function runs the file input GUI and processes the data in the folder selected
+    def directory_input(self):
+        # This function runs the file input GUI and processes the data in the folder selected
         dlg = QtWidgets.QFileDialog(self.View.mainWindow)
         dlg.setFileMode(QtWidgets.QFileDialog.Directory)
-        foldernames = QtCore.QStringListModel
+        folder_names = QtCore.QStringListModel
         if dlg.exec():
-            foldernames = dlg.selectedFiles()
+            folder_names = dlg.selectedFiles()
 
-        if len(foldernames) < 1 or len(foldernames) > 1:
+        if len(folder_names) < 1 or len(folder_names) > 1:
             logging.warning("File Selection Error. Maintaining Current View State")
         else:
-            #clear dicom data
-            self.dcmData = []
-            self.dcmMisc = []
-            OpenData = self.Model.OpenDicom(foldernames[0])
-            self.dcmData = OpenData[0]
-            self.dcmMisc = OpenData[1]
+            # clear dicom data
+            self.dcm_data = []
+            self.dcm_misc = []
+            open_data = self.Model.open_dicom(folder_names[0])
+            self.dcm_data = open_data[0]
+            self.dcm_misc = open_data[1]
 
-            if len(self.dcmData) > 0:
-                self.images = self.Model.DicomToImage(self.dcmData) #call to model function
-                self.View.viewImage(self.images[0]) #call to view function
+            if len(self.dcm_data) > 0:
+                self.images = self.Model.dicom_to_image(self.dcm_data)  # call to model function
+                self.View.view_image(self.images[0])  # call to view function
                 logging.info("Image Array Length = " + str(len(self.images)))
-                logging.info("Dicom Array Length = " + str(len(self.dcmData)))
-                self.View.ViewToggle(self.dcmData, self.images) #call to view function
+                logging.info("Dicom Array Length = " + str(len(self.dcm_data)))
+                self.View.view_toggle(self.dcm_data, self.images)  # call to view function
             else:
                 logging.warning("No Dicom Files Found in Folder. Maintaining Current View State")
-                return(-1)
-
-
-    #def DisplayDicom(self):
-
-
-
-
-
-
-
+                return -1
