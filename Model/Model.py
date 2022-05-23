@@ -9,7 +9,8 @@ class Model:
     def __init__(self, Controller,rootDir = None):
         self.rootDir = rootDir
 
-    def OpenDicom(self, directory):
+    @staticmethod
+    def OpenDicom(directory):
         strInput = directory + "/*.dcm"
 
         dirList = glob.glob(strInput)
@@ -23,14 +24,16 @@ class Model:
             except:
                 TempMiscArray.append(ds)
             #print(ds.get_item((0x0020,0x1041)).value)
-        self.SortDicom(TempDcmArray)
+        SortDicom(TempDcmArray)
         return([TempDcmArray, TempMiscArray])
 
-    def SortDicom(self, array):
+    @staticmethod
+    def SortDicom(array):
         array.sort(key = lambda x:x.get_item((0x0020,0x1041)).value, reverse = False)
         return(array)
 
-    def DicomToImage(self, dicoms):
+    @staticmethod
+    def DicomToImage(dicoms):
         images = []
         for i in dicoms:
             try:
