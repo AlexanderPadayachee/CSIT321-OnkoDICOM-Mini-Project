@@ -22,11 +22,11 @@ class Model:
             try:
                 temp = ds.get_item((0x0020, 0x1041)).value
                 temp_dcm_array.append(ds)
-            except False:
+            except temp_misc_array:
                 temp_misc_array.append(ds)
             # print(ds.get_item((0x0020,0x1041)).value)
         Model.sort_dicom(temp_dcm_array)
-        return [temp_dcm_array, temp_dcm_array]
+        return [temp_dcm_array, temp_misc_array]
 
     @staticmethod
     def sort_dicom(array):
@@ -43,6 +43,6 @@ class Model:
                 final_image = np.uint8(rescaled_im)
                 patient_image = Image.fromarray(final_image)
                 images.append(patient_image)
-            except False:
+            except logging:
                 logging.info("Importing DICOM Files without pixel data")
         return images
