@@ -14,28 +14,24 @@ class View:
         self.root_dir = root_dir
         self.displayWindow = QtWidgets.QMainWindow()
 
+        # toolbar setup
         Action1 = QtGui.QAction("&Open File", self.displayWindow)
         Action1.triggered.connect(controller.directory_input)
         menu = self.displayWindow.menuBar()
         fileMenu = menu.addMenu("&File")
         fileMenu.addAction(Action1)
-
         fileMenu.addSeparator()
-
-
-
         self.layoutH = QtWidgets.QHBoxLayout()
         self.layout1 = QtWidgets.QVBoxLayout()
         self.button = QtWidgets.QPushButton("Select Directory")
 
-
+        # Setup Widgets
         self.displayWindow.setWindowTitle("Mini Project Group 1 // DICOM DISPLAY")
-        # self.displayWindow.setFixedSize(QtCore.QSize(1000, 1000))
         self.label = QtWidgets.QLabel(self.displayWindow)
         self.slider = QtWidgets.QSlider(self.displayWindow, QtCore.Qt.Horizontal)
         self.slider.setOrientation(QtCore.Qt.Horizontal)
-        self.slider.sliderMoved.connect(self.update_image)
-        self.slider.valueChanged.connect(self.update_image)
+        self.slider.sliderMoved.connect(lambda: controller.update_image(self.slider.value()))
+        self.slider.valueChanged.connect(lambda: controller.update_image(self.slider.value()))
 
         self.DicomInfo = QtWidgets.QLabel(self.displayWindow)
         self.dicomScroll = QtWidgets.QScrollArea()
@@ -44,66 +40,26 @@ class View:
 
         self.textLabel = QtWidgets.QLabel(self.displayWindow)
 
+        # Layout Creation
         self.layout1.setSpacing(5)
         self.layoutH.setSpacing(5)
-
         self.layout1.setContentsMargins(0, 0, 0, 0)
-
         self.layout1.addWidget(self.textLabel)
         self.layout1.addWidget(self.label)
         self.layout1.addWidget(self.slider)
-
         self.layoutH.addLayout(self.layout1)
-
         self.layoutH.addWidget(self.dicomScroll)
-
         widget = QtWidgets.QWidget()
         widget.setLayout(self.layoutH)
-
         self.displayWindow.setCentralWidget(widget)
+        self.displayWindow.resize(QtCore.QSize(1500, 500))
 
-        # the next attribute setups are disgusting and don't make sense. Data should not be stored in the view object.
-        # If you find a way to send data from the Controller to the view when an event listener in the view is
-        # triggered please implement it here.
-        # It is static data though and will not change state when running the code.
-        self.dcm_data = []
-        self.images = []
 
     def ButtonTest(self):
         print("check")
 
-    def view_toggle(self, dcm_data, images):
-        self.images = images
-        self.dcm_data = dcm_data
-        text1 = "Scan Position:   " + str(dcm_data[0].get_item((0x0020, 0x1041)).value) + "\n"
-        text2 = "Series Position:  0"
 
-        self.textLabel.setText(text1 + text2)
 
-        self.slider.setMinimum(1)
-        self.slider.setMaximum(len(dcm_data))
-        self.slider.setValue(1)
-        self.slider.setSingleStep(1)
-        self.update_image(True)
-
-        self.displayWindow.resize(QtCore.QSize(1500, 500))
-
-    def view_image(self, picture):
-        data = ImageQt(picture)
-        pix = QtGui.QPixmap.fromImage(data)
-        self.label.setPixmap(pix)
-
-    def update_image(self, force_init=False):
-        index = int(self.slider.value() - 1)
-        if force_init is True:
-            index = 0
-        image = self.images[index]
-        self.view_image(image)
-        text1 = "Scan Position:   " + str(self.dcm_data[index].get_item((0x0020, 0x1041)).value) + "\n"
-        text2 = "Series Position: " + str(index + 1)
-
-        self.textLabel.setText(text1 + text2)
-        self.DicomInfo.setText(str(self.dcm_data[index]))
-
-    def show_main(self):
+    def show_main(self):  # View Function
         self.displayWindow.show()
+
