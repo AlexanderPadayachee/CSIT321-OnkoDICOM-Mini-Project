@@ -22,7 +22,7 @@ class Model:
             try:
                 temp = ds.get_item((0x0020, 0x1041)).value
                 temp_dcm_array.append(ds)
-            except temp_misc_array:
+            except:
                 temp_misc_array.append(ds)
             # print(ds.get_item((0x0020,0x1041)).value)
         Model.sort_dicom(temp_dcm_array)
