@@ -16,6 +16,16 @@ class View:
         self.mainWindow = QtWidgets.QMainWindow()
         self.displayWindow = QtWidgets.QMainWindow()
 
+        Action1 = QtGui.QAction("&Open File", self.displayWindow)
+        Action1.triggered.connect(controller.directory_input)
+        menu = self.displayWindow.menuBar()
+        fileMenu = menu.addMenu("&File")
+        fileMenu.addAction(Action1)
+
+        fileMenu.addSeparator()
+
+
+
         self.layoutH = QtWidgets.QHBoxLayout()
         self.layout1 = QtWidgets.QVBoxLayout()
         self.mainWindow.setWindowTitle("Mini Project Group 1")
@@ -64,6 +74,9 @@ class View:
         # It is static data though and will not change state when running the code.
         self.dcm_data = []
         self.images = []
+
+    def ButtonTest(self):
+        print("check")
 
     def view_toggle(self, dcm_data, images):
         self.images = images

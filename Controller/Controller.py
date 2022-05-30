@@ -24,6 +24,9 @@ class Controller:
 
     def directory_input(self):
         # This function runs the file input GUI and processes the data in the folder selected
+        self.dcm_data = []
+        self.dcm_misc = []
+        self.images = []
         dlg = QtWidgets.QFileDialog(self.View.mainWindow)
         dlg.setFileMode(QtWidgets.QFileDialog.Directory)
         folder_names = QtCore.QStringListModel
