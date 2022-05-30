@@ -27,7 +27,7 @@ class Controller:
         self.dcm_data = []
         self.dcm_misc = []
         self.images = []
-        dlg = QtWidgets.QFileDialog(self.View.mainWindow)
+        dlg = QtWidgets.QFileDialog(self.View.displayWindow)
         dlg.setFileMode(QtWidgets.QFileDialog.Directory)
         folder_names = QtCore.QStringListModel
         if dlg.exec():
