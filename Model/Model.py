@@ -30,7 +30,7 @@ class Model:
 
     @staticmethod
     def sort_dicom(array):
-        array.sort(key=lambda x: x.get_item((0x0020, 0x1041)).value, reverse=False)
+        array.sort(key=lambda x: float(x.get_item((0x0020, 0x1041)).value), reverse=True)
         return array
 
     @staticmethod

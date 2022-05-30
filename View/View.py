@@ -12,8 +12,6 @@ class View:
         # It is referenced in the init, and is not in any other functions. this should be replaced by the parent call.
 
         self.root_dir = root_dir
-
-        self.mainWindow = QtWidgets.QMainWindow()
         self.displayWindow = QtWidgets.QMainWindow()
 
         Action1 = QtGui.QAction("&Open File", self.displayWindow)
@@ -28,12 +26,8 @@ class View:
 
         self.layoutH = QtWidgets.QHBoxLayout()
         self.layout1 = QtWidgets.QVBoxLayout()
-        self.mainWindow.setWindowTitle("Mini Project Group 1")
-        # self.mainWindow.setFixedSize(QtCore.QSize(600, 600))
         self.button = QtWidgets.QPushButton("Select Directory")
 
-        self.mainWindow.setMenuWidget(self.button)
-        self.button.clicked.connect(controller.directory_input)
 
         self.displayWindow.setWindowTitle("Mini Project Group 1 // DICOM DISPLAY")
         # self.displayWindow.setFixedSize(QtCore.QSize(1000, 1000))
@@ -81,8 +75,6 @@ class View:
     def view_toggle(self, dcm_data, images):
         self.images = images
         self.dcm_data = dcm_data
-        self.mainWindow.close()
-        self.displayWindow.show()
         text1 = "Scan Position:   " + str(dcm_data[0].get_item((0x0020, 0x1041)).value) + "\n"
         text2 = "Series Position:  0"
 
@@ -94,7 +86,7 @@ class View:
         self.slider.setSingleStep(1)
         self.update_image(True)
 
-        self.displayWindow.resize(QtCore.QSize(1600, 500))
+        self.displayWindow.resize(QtCore.QSize(1500, 500))
 
     def view_image(self, picture):
         data = ImageQt(picture)
@@ -114,4 +106,4 @@ class View:
         self.DicomInfo.setText(str(self.dcm_data[index]))
 
     def show_main(self):
-        self.mainWindow.show()
+        self.displayWindow.show()
