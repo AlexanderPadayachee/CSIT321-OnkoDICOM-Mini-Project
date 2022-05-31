@@ -1,8 +1,4 @@
-from PySide6 import QtWidgets, QtCore, QtGui
-import logging
-import PIL
-from PIL.ImageQt import ImageQt
-import io
+
 from View.Preferences import *
 from View.DisplayWindow import DisplayWindow
 
@@ -22,3 +18,6 @@ class View():
 
     def show_main(self):  # View Function
         self.displayWindow.show()
+
+    def alert(self, stringIn):
+        self.displayWindow.alert(stringIn)
