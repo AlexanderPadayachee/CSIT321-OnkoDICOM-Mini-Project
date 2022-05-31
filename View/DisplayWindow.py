@@ -48,3 +48,11 @@ class DisplayWindow(QtWidgets.QMainWindow):
     def resizeEvent(self, event):
         insertData(event.size().width(), event.size().height(), id=1)
         QtWidgets.QMainWindow.resizeEvent(self, event)
+
+    def alert(self, stringIn):
+        msgBox = QtWidgets.QMessageBox()
+        msgBox.setIcon(QtWidgets.QMessageBox.Information)
+        msgBox.setText("Error in Opening Dicom File: " + str(stringIn))
+        msgBox.setWindowTitle("DicomError")
+        msgBox.setStandardButtons(QtWidgets.QMessageBox.Ok)
+        msgBox.exec()
