@@ -14,6 +14,7 @@ from pydicom import dcmread
 from PIL import Image, ImageEnhance
 
 
+
 class Controller:
     def __init__(self, root_dir=None):
         # setup attributes and create model and view
@@ -64,25 +65,25 @@ class Controller:
         text1 = "Scan Position:   " + str(self.Model.dcm_data[index].get_item((0x0020, 0x1041)).value) + "\n"
         text2 = "Series Position: " + str(index + 1)
 
-        self.View.textLabel.setText(text1 + text2)
-        self.View.DicomInfo.setText(str(self.Model.dcm_data[index]))
+        self.View.displayWindow.textLabel.setText(text1 + text2)
+        self.View.displayWindow.DicomInfo.setText(str(self.Model.dcm_data[index]))
 
     def view_toggle(self):
         text1 = "Scan Position:   " + str(self.Model.dcm_data[0].get_item((0x0020, 0x1041)).value) + "\n"
         text2 = "Series Position:  0"
 
-        self.View.textLabel.setText(text1 + text2)
-        self.View.slider.setMinimum(1)
-        self.View.slider.setMaximum(len(self.Model.dcm_data))
-        self.View.slider.setValue(1)
-        self.View.slider.setSingleStep(1)
+        self.View.displayWindow.textLabel.setText(text1 + text2)
+        self.View.displayWindow.slider.setMinimum(1)
+        self.View.displayWindow.slider.setMaximum(len(self.Model.dcm_data))
+        self.View.displayWindow.slider.setValue(1)
+        self.View.displayWindow.slider.setSingleStep(1)
         self.update_image(True)
         self.View.displayWindow.resize(QtCore.QSize(1500, 500))
 
     def view_image(self, picture):
         data = ImageQt(picture)
         pix = QtGui.QPixmap.fromImage(data)
-        self.View.label.setPixmap(pix)
+        self.View.displayWindow.label.setPixmap(pix)
 
     def open_dicom(self, directory):
         str_input = directory + "/*.dcm"
@@ -116,7 +117,7 @@ class Controller:
                 final_image = np.uint8(rescaled_im)
                 patient_image = Image.fromarray(final_image)
                 images.append(patient_image)
-                if(sys.getsizeof(images) >= 500000000):
+                if (sys.getsizeof(images) >= 500000000):
                     logging.warning("Image processing aborted(files to large)")
                     break
             except:
@@ -124,3 +125,5 @@ class Controller:
         logging.debug("Size of Image Array = " + str(sys.getsizeof(images)))
         self.Model.images = images
         return images
+
+
