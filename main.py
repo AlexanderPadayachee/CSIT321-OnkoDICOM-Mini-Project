@@ -1,33 +1,25 @@
-'''The main file of the onko mini project. Running this file executes the program'''
+"""The main file of the onko mini project. Running this file executes the program"""
 
 import sys
-import logging
 import PySide6
 from Controller.Controller import Controller
+from Controller.Setup import *
 
 if __name__ == "__main__":
-    log = logging.getLogger()
-    # logging setup
-    for handler in logging.root.handlers[:]:
-        logging.root.removeHandler(handler)
-    logging.getLogger().setLevel(logging.DEBUG)
-    logging.basicConfig(filename="OnkoLog.log", format="%(asctime)s %(levelname)s %(message)s",
-                        datefmt="%m/%d/%Y %I:%M:%S %p")
-
+    logSetup("OnkoLog.log")
+    logging.info("Log Setup Success")
     # ROOT DIRECTORY SETUP (not used in code, but is nice to have)
     root_dir = sys.argv[0]
     logging.info("startup success")
 
     # GUI setup
-    #
     app = PySide6.QtWidgets.QApplication(sys.argv)
-
     main_controller = Controller(root_dir)
     logging.info("GUI init Successful")
-
     main_controller.show_window()
 
     # Run GUI
+    logging.info("Excecuting GUI Thread")
     app.exec()
 
     # Code below will run when the GUI is closed

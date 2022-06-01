@@ -8,9 +8,8 @@ from PySide6 import QtGui
 import sys
 import logging
 import glob
-from pydicom import dcmread
+from pydicom import dcmread, errors
 from PIL import Image, ImageEnhance
-
 
 
 class Controller:
@@ -21,6 +20,7 @@ class Controller:
         self.root_dir = root_dir
         self.model = Model(self.root_dir)
         self.view = View(self, self.root_dir)
+        logging.info("Controller object initialised")
 
     def show_window(self):
         """Show the main display window"""
@@ -31,6 +31,7 @@ class Controller:
         self.model.dcm_data = []
         self.model.dcm_misc = []
         self.model.images = []
+        logging.info("Data structures reset")
         dlg = QtWidgets.QFileDialog(self.view.displayWindow)
         dlg.setFileMode(QtWidgets.QFileDialog.Directory)
         folder_names = QtCore.QStringListModel
@@ -40,10 +41,11 @@ class Controller:
         if len(folder_names) < 1 or len(folder_names) > 1:
             logging.warning("File Selection Error. Maintaining Current View State")
         else:
+            logging.info("Valid folder selection")
             # clear dicom data
             self.model.dcm_data = []
             self.model.dcm_misc = []
-            open_data = self.open_dicom(folder_names[0])
+            open_data = self.open_dicom(folder_names[0]) # calls the open dicom function
             self.model.dcm_data = open_data[0]
             self.model.dcm_misc = open_data[1]
 
@@ -62,14 +64,17 @@ class Controller:
         index = int(value - 1)
         if force_init is True:
             index = 0
-        image = self.model.images[index]
-        self.view_image(image)
-        text1 = "Scan Position:   " + \
-                str(self.model.dcm_data[index].get_item((0x0020, 0x1041)).value) + "\n"
-        text2 = "Series Position: " + str(index + 1)
-
-        self.view.displayWindow.textLabel.setText(text1 + text2)
-        self.view.displayWindow.DicomInfo.setText(str(self.model.dcm_data[index]))
+            logging.debug("force init value = true")
+        if index >= 0 and index < len(self.model.images):
+            image = self.model.images[index]
+            self.view_image(image)
+            text1 = "Scan Position:   " + \
+                    str(self.model.dcm_data[index].get_item((0x0020, 0x1041)).value) + "\n"
+            text2 = "Series Position: " + str(index + 1)
+            self.view.displayWindow.textLabel.setText(text1 + text2)
+            self.view.displayWindow.DicomInfo.setText(str(self.model.dcm_data[index]))
+        else:
+            logging.debug("slider moved with no image associated")
 
     def view_toggle(self):
         """Handles the logic when a folder is selected"""
@@ -84,12 +89,18 @@ class Controller:
         self.view.displayWindow.slider.setSingleStep(1)
         self.update_image(True)
         self.view.displayWindow.resize(QtCore.QSize(1500, 500))
+        logging.info("Display window default loaded")
 
     def view_image(self, picture):
         """Changes the image when the slider is moved"""
-        data = ImageQt(picture)
-        pix = QtGui.QPixmap.fromImage(data)
-        self.view.displayWindow.label.setPixmap(pix)
+        try:
+            data = ImageQt(picture)
+            pix = QtGui.QPixmap.fromImage(data)
+            self.view.displayWindow.label.setPixmap(pix)
+            logging.info("image loaded")
+        except Exception as e:
+            self.view.alert(str(e))
+            logging.warning("image loaded from dicom, Failed conversion to qt pixel map")
 
     def open_dicom(self, directory):
         """Takes a folder directory as an input, and saves all the dicom files to an array"""
@@ -100,21 +111,24 @@ class Controller:
         for i in dir_list:
             try:
                 ds = dcmread(i, force=True)
-            except Exception as e:
+            except errors.InvalidDicomError as e:
+                logging.warning("Invalid dicom file read")
                 self.view.alert(e)
 
             try:
                 ds.get_item((0x0020, 0x1041)).value
                 temp_dcm_array.append(ds)
-            except:
+            except: # this seems vague, but is used to separate metadata dicom files from image files.
+                logging.debug("misc array populated")
                 temp_misc_array.append(ds)
-            # print(ds.get_item((0x0020,0x1041)).value)
         temp_dcm_array = self.sort_dicom(temp_dcm_array)
+        logging.info("Dicom Array Sorted")
         self.model.dcm_data = temp_dcm_array
         self.model.dcm_misc = temp_misc_array
         return [temp_dcm_array, temp_misc_array]
 
-    def sort_dicom(self, array):
+    @staticmethod
+    def sort_dicom(array):
         """Sorts Dicom files by the scan position"""
         array.sort(key=lambda x: float(x.get_item((0x0020, 0x1041)).value),
                    reverse=True)
