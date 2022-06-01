@@ -26,23 +26,38 @@ def test_get_home_address():
     assert str(getHomeAddress()) == test_path
 
 
+def test_get_data_no_database():
+    """
+    Test to ensure that if the database isn't
+    created that the method creates it and
+    inserts default values into the database
+    """
+    assert getData() == [(1500, 500)]
+
+
 def test_database_create():
     """
-    Create the database to make sure testing can occur
+    Recreate the database
     """
+    folder_path = os.path.join(os.path.expanduser('~'), '.OnkoMiniproject')
+    database_path = os.path.join(os.path.expanduser('~'), '.OnkoMiniproject/Onko.db')
+    os.remove(database_path)
+    os.rmdir(folder_path)
     databaseCreate()
 
 
 def test_get_data_exists():
     """
     Test to see if something exists within the database
+    to make sure it is created properly
     """
     assert getData() != [(0, 0)]
 
 
 def test_get_data_default_values():
     """
-    Test default values for the database
+    Test default values for the database to ensure it is
+    created properly
     """
     assert getData() == [(1500, 500)]
 
