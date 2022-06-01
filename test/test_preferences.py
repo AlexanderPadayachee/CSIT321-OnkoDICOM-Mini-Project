@@ -46,7 +46,9 @@ def test_get_data_no_database():
 
 def test_database_create():
     """
-    Recreate the database
+    Recreate the database to ensure that
+    it is being created properly with the
+    method alone
     """
     folder_path = os.path.join(os.path.expanduser('~'), '.OnkoMiniproject')
     database_path = os.path.join(os.path.expanduser('~'), '.OnkoMiniproject/Onko.db')
