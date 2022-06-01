@@ -4,8 +4,14 @@ import os
 from View.Preferences import *
 
 
+def test_home_address_not_current_directory():
+    test_path = os.getcwd()
+    assert str(getHomeAddress()) != test_path
+
+
 def test_get_home_address():
-    assert getHomeAddress()
+    test_path = os.path.expanduser('~')
+    assert str(getHomeAddress()) == test_path
 
 
 def test_database_create():
@@ -17,4 +23,6 @@ def test_insert_data():
 
 
 def test_get_data():
-    assert getData(1)
+    test_out = getData()
+    print(test_out)
+    assert test_out
