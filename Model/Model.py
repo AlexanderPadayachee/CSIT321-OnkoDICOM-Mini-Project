@@ -1,4 +1,5 @@
 """Contains all data structures that the GUI requires"""
+import logging
 
 
 class Model:
@@ -9,3 +10,4 @@ class Model:
         self.dcm_data = []  # DICOM files that contain pixel data are stored here as pydicom objects
         self.dcm_misc = []  # DICOM files that contain no pixel data are stored here as pydicom objects
         self.images = []  # DICOM images are stored here as PIL objects
+        logging.info("Model class created")

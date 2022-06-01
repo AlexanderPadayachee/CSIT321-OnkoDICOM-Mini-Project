@@ -63,3 +63,4 @@ class DisplayWindow(QtWidgets.QMainWindow):
         msgBox.setWindowTitle("DicomError")
         msgBox.setStandardButtons(QtWidgets.QMessageBox.Ok)
         msgBox.exec()
+        logging.info("alert box executed")

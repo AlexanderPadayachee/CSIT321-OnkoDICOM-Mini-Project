@@ -1862,3 +1862,426 @@
 06/01/2022 03:19:04 PM INFO END SESSION 
 
 
+06/01/2022 04:23:15 PM INFO Log Setup Success
+06/01/2022 04:23:15 PM INFO startup success
+06/01/2022 04:23:16 PM INFO Model class created
+06/01/2022 04:23:16 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:16 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:16 PM DEBUG sql select successful
+06/01/2022 04:23:16 PM INFO Display window Created
+06/01/2022 04:23:16 PM INFO View object created successfully
+06/01/2022 04:23:16 PM INFO Controller object initialised
+06/01/2022 04:23:16 PM INFO GUI init Successful
+06/01/2022 04:23:16 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:16 PM DEBUG Database file found. updating now
+06/01/2022 04:23:16 PM INFO window resize
+06/01/2022 04:23:16 PM INFO Excecuting GUI Thread
+06/01/2022 04:23:17 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:17 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:17 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:17 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:17 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:17 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:18 PM DEBUG slider moved with no image associated
+06/01/2022 04:23:19 PM INFO Data structures reset
+06/01/2022 04:23:25 PM INFO Valid folder selection
+06/01/2022 04:23:25 PM INFO Dicom Array Sorted
+06/01/2022 04:23:26 PM DEBUG Size of Image Array = 920
+06/01/2022 04:23:26 PM INFO image loaded
+06/01/2022 04:23:26 PM INFO Image Array Length = 6100
+06/01/2022 04:23:26 PM INFO Dicom Array Length = 100
+06/01/2022 04:23:26 PM INFO image loaded
+06/01/2022 04:23:26 PM INFO image loaded
+06/01/2022 04:23:26 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:26 PM DEBUG Database file found. updating now
+06/01/2022 04:23:26 PM INFO window resize
+06/01/2022 04:23:26 PM INFO Display window default loaded
+06/01/2022 04:23:26 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:26 PM DEBUG Database file found. updating now
+06/01/2022 04:23:26 PM INFO window resize
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:27 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:28 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:29 PM INFO image loaded
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:31 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:31 PM DEBUG Database file found. updating now
+06/01/2022 04:23:31 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:32 PM DEBUG home address at: C:\Users\Alex
+06/01/2022 04:23:32 PM DEBUG Database file found. updating now
+06/01/2022 04:23:32 PM INFO window resize
+06/01/2022 04:23:34 PM INFO image loaded
+06/01/2022 04:23:34 PM INFO image loaded
+06/01/2022 04:23:35 PM INFO image loaded
+06/01/2022 04:23:37 PM INFO GUI exec Successful
+06/01/2022 04:23:37 PM INFO END SESSION 
+
+
