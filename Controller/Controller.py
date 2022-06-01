@@ -136,7 +136,7 @@ class Controller:
         return array
 
     def dicom_to_image(self, dicom):
-        """Converts the python dicom objects to images, and saves them in an array"""
+        """Converts the python dicom objects to multiple images, and saves them in an array"""
         images = []
         for i in dicom:
             try:
