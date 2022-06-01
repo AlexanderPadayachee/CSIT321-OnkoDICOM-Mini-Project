@@ -27,4 +27,15 @@ Running the program:
 
 	python main.py
 
+Using the program
+-
 
+Once the program is running to open a dicom file follow these steps:
+- go to the file tab (located at the top right)
+- select 'open file'
+- go to the directory containing '.dcm' files
+- press 'select'
+
+The program should be displaying a dicom image with relevant information to the right.\
+To see the slices drag the scroller left to right as desired.\
+When ready to close press the 'x' on the top right.
