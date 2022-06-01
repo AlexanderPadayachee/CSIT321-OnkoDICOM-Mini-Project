@@ -20,18 +20,21 @@ def databaseCreate():
     partialPath = path.join(home, dbAddress)
 
     if not path.exists(partialPath):
+        logging.debug("Path in home directory non-existant. Making directory")
         makedirs(partialPath)
-        logging.debug("")
     if not path.exists(fullPath):
+        logging.debug("databease file non-existant. Making file")
         conn = sqlite3.connect(fullPath)
         conn.execute('''CREATE TABLE USER_PREFERENCES
                      (ID INT(3) PRIMARY KEY    NOT NULL,
                      WIDTH          INT(5)    NOT NULL,
                      HEIGHT         INT(5)     NOT NULL);''')
+        logging.debug("inserting default values: 1500, 500")
         sql = "INSERT INTO USER_PREFERENCES (ID, WIDTH, HEIGHT) VALUES ({},{},{})".format(1, 1500, 500)
         conn.execute(sql)
         conn.commit()
         conn.close()
+        logging.info("database creation successful")
 
 
 def insertData(width, height, id=1):
@@ -40,11 +43,17 @@ def insertData(width, height, id=1):
     dbAddress = ".OnkoMiniproject"
     fullPath = path.join(home, dbAddress, 'Onko.db')
     if path.exists(fullPath):
+        logging.debug("Database file found. updating now")
         conn = sqlite3.connect(fullPath)
         sql = "UPDATE USER_PREFERENCES set WIDTH = {}, HEIGHT = {} WHERE ID = {}".format(width, height, id)
         conn.execute(sql)
         conn.commit()
         conn.close()
+    else:
+        logging.debug("no database file found. Creating now")
+        databaseCreate()
+        insertData(width, height)
+
 
 def getData(id=1):
     """executes the select statement to get the data from the database"""
@@ -58,4 +67,9 @@ def getData(id=1):
         out = []
         for i in cursor:
             out.append(i)
+        logging.debug("sql select successful")
         return out
+    else:
+        logging.debug("no database file found. Creating now")
+        databaseCreate()
+        return getData()
