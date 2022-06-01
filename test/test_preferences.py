@@ -23,6 +23,4 @@ def test_insert_data():
 
 
 def test_get_data():
-    test_out = getData()
-    print(test_out)
-    assert test_out
+    assert getData() == [(1, 1)]
