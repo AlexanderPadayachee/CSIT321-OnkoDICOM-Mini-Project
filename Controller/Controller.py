@@ -67,6 +67,7 @@ class Controller:
             logging.debug("force init value = true")
         if index >= 0 and index < len(self.model.images):
             image = self.model.images[index]
+            logging.debug("Accessing image at index {}".format(index))
             self.view_image(image)
             text1 = "Scan Position:   " + \
                     str(self.model.dcm_data[index].get_item((0x0020, 0x1041)).value) + "\n"
