@@ -1,8 +1,11 @@
+"""Defines the main window that the user interacts with."""
 from PySide6 import QtWidgets, QtCore, QtGui
 from View.Preferences import *
+import logging
 
 class DisplayWindow(QtWidgets.QMainWindow):
     def __init__(self, view, controller, userPref):
+        """init function, creates the qt objects and all widgets it contains"""
         super().__init__()
         self.layoutH = QtWidgets.QHBoxLayout()
         self.layout1 = QtWidgets.QVBoxLayout()
@@ -44,12 +47,16 @@ class DisplayWindow(QtWidgets.QMainWindow):
         fileMenu = menu.addMenu("&File")
         fileMenu.addAction(Action1)
         fileMenu.addSeparator()
+        logging.info("Display window Created")
 
     def resizeEvent(self, event):
+        """Updates sqlite database upon window resize"""
         insertData(event.size().width(), event.size().height(), id=1)
         QtWidgets.QMainWindow.resizeEvent(self, event)
+        logging.info("window resize")
 
     def alert(self, stringIn):
+        """Defines the error alert dialogue box"""
         msgBox = QtWidgets.QMessageBox()
         msgBox.setIcon(QtWidgets.QMessageBox.Information)
         msgBox.setText("Error in Opening Dicom File: " + str(stringIn))

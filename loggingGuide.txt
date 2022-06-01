@@ -1,0 +1,31 @@
+Logging guide from python:
+    DEBUG: Detailed information, typically of interest only when diagnosing problems.
+
+    INFO: Confirmation that things are working as expected.
+
+    WARNING: An indication that something unexpected happened, or indicative of some problem in the near future (e.g.
+    ‘disk space low’). The software is still working as expected.
+
+    ERROR: Due to a more serious problem, the software has not been able to perform some function.
+
+    CRITICAL: A serious error, indicating that the program itself may be unable to continue running.
+
+
+what i've been using
+    DEBUG: To determine which branch of an if/else was executed. Also if a variable needs to be logged such as an
+    array index, variable size on disk, exception etc, debug is used
+
+    INFO: When something occurs in the program, usually at the end of a function, or after an important action is taken,
+    for example deleting the contents of an array, changing a widget on the GUI, creating a file, etc.
+
+    WARNING: When the program behaves unexpectedly, such as a dicom file has a corrupted image,  but can continue
+    performing
+
+    ERROR: the program needs to end execution due to an error. Not implemented
+
+    CRITICAL: The program is threatening the operation of the user's computer, for example an infinite loop, deleting
+    files, using too much ram etc. Not implemented
+
+please note: we have tried to maintain this formatting, but some of the logging was implemented before we agreed on
+this. If you find logging in our code that does not conform to this, please message Alex, Allen, Dylan or Sam on the
+slack
