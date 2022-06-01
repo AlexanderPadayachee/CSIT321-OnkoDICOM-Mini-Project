@@ -44,6 +44,21 @@ def test_get_data_no_database():
     assert getData() == [(1500, 500)]
 
 
+def test_insert_data_no_database():
+    """
+    test to make sure that if database doesn't exist
+    that insertData creates it and inserts the data
+    provided when calling the method
+    """
+    folder_path = os.path.join(os.path.expanduser('~'), '.OnkoMiniproject')
+    database_path = os.path.join(os.path.expanduser('~'), '.OnkoMiniproject/Onko.db')
+    os.remove(database_path)
+    os.rmdir(folder_path)
+
+    insertData(1, 1)
+    assert getData() == [(1, 1)]
+
+
 def test_database_create():
     """
     Recreate the database to ensure that
