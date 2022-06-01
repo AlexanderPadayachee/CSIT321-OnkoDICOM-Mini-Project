@@ -1,4 +1,5 @@
-"""Setup file. Contains the logging setupr for now, but should a config file be implemented, it will be read here"""
+"""Setup file. Contains the logging setupr for now, but should a config file be implemented, it will be read here
+This file is in the controller folder to keep it out of the root directory, despite being called by main.py"""
 
 import logging
 
