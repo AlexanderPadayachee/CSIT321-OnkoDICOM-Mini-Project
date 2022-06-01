@@ -1,4 +1,4 @@
-"""The main file of the onko mini project. Running this file executes the program"""
+"""The main file of the Onko mini project. Running this file executes the program"""
 
 import sys
 import PySide6
