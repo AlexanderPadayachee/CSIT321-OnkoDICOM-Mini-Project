@@ -32,14 +32,17 @@ def test_get_data_no_database():
     created that the method creates it and
     inserts default values into the database
     """
+    """
     folder_path = os.path.join(os.path.expanduser('~'), '.OnkoMiniproject')
     database_path = os.path.join(os.path.expanduser('~'), '.OnkoMiniproject/Onko.db')
     os.remove(database_path)
     os.rmdir(folder_path)
     """
+    """
     The code above is to ensure that the database 
     is wiped clean for unit testing to occur on a 
-    host machine
+    host machine where the database already
+    exists
     """
     assert getData() == [(1500, 500)]
 
