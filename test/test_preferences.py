@@ -27,26 +27,29 @@ def test_get_home_address():
 
 
 def test_database_create():
+    """
+    Create the database to make sure testing can occur
+    """
     databaseCreate()
-
-
-def test_get_data_default_values():
-    assert getData() == [(1500, 500)]
-
-
-def test_insert_data():
-    insertData(1, 1)
 
 
 def test_get_data_exists():
     """
-    Test to see if something exists within getData
+    Test to see if something exists within the database
     """
     assert getData() != [(0, 0)]
 
 
+def test_get_data_default_values():
+    """
+    Test default values for the database
+    """
+    assert getData() == [(1500, 500)]
+
+
 def test_get_data():
     """
-    Test to see if getData has an output
+    Test to see if the data within the database is changed based on insertData
     """
+    insertData(1, 1)
     assert getData() == [(1, 1)]
