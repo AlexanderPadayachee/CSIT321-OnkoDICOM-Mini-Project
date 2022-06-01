@@ -22,9 +22,16 @@ def test_get_home_address():
     test_path = os.path.expanduser('~')
     assert str(getHomeAddress()) == test_path
 
+    test_path = str(Path.home())
+    assert str(getHomeAddress()) == test_path
+
 
 def test_database_create():
     databaseCreate()
+
+
+def test_get_data_default_values():
+    assert getData() == [(1500, 500)]
 
 
 def test_insert_data():
