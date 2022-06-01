@@ -20,10 +20,10 @@ def databaseCreate():
     partialPath = path.join(home, dbAddress)
 
     if not path.exists(partialPath):
-        logging.debug("Path in home directory non-existant. Making directory")
+        logging.debug("Path in home directory non-existent. Making directory")
         makedirs(partialPath)
     if not path.exists(fullPath):
-        logging.debug("databease file non-existant. Making file")
+        logging.debug("database file non-existant. Making file")
         conn = sqlite3.connect(fullPath)
         conn.execute('''CREATE TABLE USER_PREFERENCES
                      (ID INT(3) PRIMARY KEY    NOT NULL,
