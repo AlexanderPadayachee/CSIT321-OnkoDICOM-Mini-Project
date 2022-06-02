@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-from Controller.Setup import *
+from Controller.setup import *
 
 
 def test_log_setup():

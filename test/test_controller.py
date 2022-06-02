@@ -3,7 +3,7 @@ import os
 import glob
 
 from pydicom import dcmread
-from Controller.Controller import *
+from Controller.controller import *
 
 
 def test_sort_dicom_empty():
