@@ -2285,3 +2285,968 @@
 06/01/2022 04:23:37 PM INFO END SESSION 
 
 
+06/02/2022 12:09:50 PM INFO Log Setup Success
+06/02/2022 12:09:50 PM INFO startup success
+06/02/2022 12:09:50 PM INFO Model class created
+06/02/2022 12:09:50 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:09:50 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:09:50 PM DEBUG sql select successful
+06/02/2022 12:09:50 PM INFO Display window Created
+06/02/2022 12:09:50 PM INFO View object created successfully
+06/02/2022 12:09:50 PM INFO Controller object initialised
+06/02/2022 12:09:50 PM INFO GUI init Successful
+06/02/2022 12:09:50 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:09:50 PM DEBUG Database file found. updating now
+06/02/2022 12:09:50 PM INFO window resize
+06/02/2022 12:09:50 PM INFO Excecuting GUI Thread
+06/02/2022 12:09:52 PM INFO Data structures reset
+06/02/2022 12:09:56 PM INFO Valid folder selection
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:58 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:09:59 PM DEBUG slider moved with no image associated
+06/02/2022 12:16:02 PM INFO Log Setup Success
+06/02/2022 12:16:02 PM INFO startup success
+06/02/2022 12:16:02 PM INFO Model class created
+06/02/2022 12:16:02 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:16:02 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:16:02 PM DEBUG sql select successful
+06/02/2022 12:16:02 PM INFO Display window Created
+06/02/2022 12:16:02 PM INFO View object created successfully
+06/02/2022 12:16:02 PM INFO Controller object initialised
+06/02/2022 12:16:02 PM INFO GUI init Successful
+06/02/2022 12:16:02 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:16:02 PM DEBUG Database file found. updating now
+06/02/2022 12:16:02 PM INFO window resize
+06/02/2022 12:16:02 PM INFO Excecuting GUI Thread
+06/02/2022 12:16:04 PM INFO Data structures reset
+06/02/2022 12:16:08 PM INFO Valid folder selection
+06/02/2022 12:16:44 PM INFO Log Setup Success
+06/02/2022 12:16:44 PM INFO startup success
+06/02/2022 12:16:44 PM INFO Model class created
+06/02/2022 12:16:44 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:16:44 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:16:44 PM DEBUG sql select successful
+06/02/2022 12:16:44 PM INFO Display window Created
+06/02/2022 12:16:44 PM INFO View object created successfully
+06/02/2022 12:16:44 PM INFO Controller object initialised
+06/02/2022 12:16:44 PM INFO GUI init Successful
+06/02/2022 12:16:44 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:16:44 PM DEBUG Database file found. updating now
+06/02/2022 12:16:44 PM INFO window resize
+06/02/2022 12:16:44 PM INFO Excecuting GUI Thread
+06/02/2022 12:16:46 PM INFO Data structures reset
+06/02/2022 12:16:52 PM INFO Valid folder selection
+06/02/2022 12:16:52 PM INFO Dicom Array Sorted
+06/02/2022 12:16:53 PM DEBUG Size of Image Array = 920
+06/02/2022 12:16:53 PM INFO image loaded
+06/02/2022 12:16:53 PM INFO Image Array Length = 100
+06/02/2022 12:16:53 PM INFO Dicom Array Length = 100
+06/02/2022 12:16:53 PM DEBUG Accessing image at index 0
+06/02/2022 12:16:53 PM INFO image loaded
+06/02/2022 12:16:53 PM DEBUG Accessing image at index 0
+06/02/2022 12:16:53 PM INFO image loaded
+06/02/2022 12:16:53 PM INFO Display window default loaded
+06/02/2022 12:16:53 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:16:53 PM DEBUG Database file found. updating now
+06/02/2022 12:16:53 PM INFO window resize
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 0
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 1
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 1
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 3
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 3
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 6
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 6
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 7
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 7
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 12
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 12
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 18
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 18
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 24
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 24
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 32
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 32
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 42
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 42
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 52
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 52
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 63
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 63
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 74
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 74
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 87
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 87
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:54 PM DEBUG Accessing image at index 99
+06/02/2022 12:16:54 PM INFO image loaded
+06/02/2022 12:16:55 PM INFO Data structures reset
+06/02/2022 12:16:58 PM INFO Valid folder selection
+06/02/2022 12:17:01 PM INFO GUI exec Successful
+06/02/2022 12:17:01 PM INFO END SESSION 
+
+
+06/02/2022 12:21:08 PM INFO Log Setup Success
+06/02/2022 12:21:08 PM INFO startup success
+06/02/2022 12:21:08 PM INFO Model class created
+06/02/2022 12:21:08 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:21:08 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:21:08 PM DEBUG sql select successful
+06/02/2022 12:21:08 PM INFO Display window Created
+06/02/2022 12:21:08 PM INFO View object created successfully
+06/02/2022 12:21:08 PM INFO Controller object initialised
+06/02/2022 12:21:08 PM INFO GUI init Successful
+06/02/2022 12:21:08 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:21:08 PM DEBUG Database file found. updating now
+06/02/2022 12:21:08 PM INFO window resize
+06/02/2022 12:21:08 PM INFO Excecuting GUI Thread
+06/02/2022 12:21:10 PM INFO Data structures reset
+06/02/2022 12:21:13 PM INFO Valid folder selection
+06/02/2022 12:24:49 PM INFO Log Setup Success
+06/02/2022 12:24:49 PM INFO startup success
+06/02/2022 12:24:49 PM INFO Model class created
+06/02/2022 12:24:49 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:24:49 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:24:49 PM DEBUG sql select successful
+06/02/2022 12:24:49 PM INFO Display window Created
+06/02/2022 12:24:49 PM INFO View object created successfully
+06/02/2022 12:24:49 PM INFO Controller object initialised
+06/02/2022 12:24:49 PM INFO GUI init Successful
+06/02/2022 12:24:49 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:24:49 PM DEBUG Database file found. updating now
+06/02/2022 12:24:49 PM INFO window resize
+06/02/2022 12:24:50 PM INFO Excecuting GUI Thread
+06/02/2022 12:24:51 PM INFO Data structures reset
+06/02/2022 12:24:57 PM INFO Valid folder selection
+06/02/2022 12:29:00 PM INFO Log Setup Success
+06/02/2022 12:29:00 PM INFO startup success
+06/02/2022 12:29:00 PM INFO Model class created
+06/02/2022 12:29:00 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:29:00 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:29:00 PM DEBUG sql select successful
+06/02/2022 12:29:00 PM INFO Display window Created
+06/02/2022 12:29:00 PM INFO View object created successfully
+06/02/2022 12:29:00 PM INFO Controller object initialised
+06/02/2022 12:29:00 PM INFO GUI init Successful
+06/02/2022 12:29:00 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:29:00 PM DEBUG Database file found. updating now
+06/02/2022 12:29:00 PM INFO window resize
+06/02/2022 12:29:00 PM INFO Excecuting GUI Thread
+06/02/2022 12:29:02 PM INFO Data structures reset
+06/02/2022 12:29:07 PM INFO Valid folder selection
+06/02/2022 12:29:07 PM DEBUG misc array populated
+06/02/2022 12:29:07 PM DEBUG misc array populated
+06/02/2022 12:29:07 PM DEBUG misc array populated
+06/02/2022 12:29:07 PM INFO Dicom Array Sorted
+06/02/2022 12:29:08 PM DEBUG Size of Image Array = 920
+06/02/2022 12:29:08 PM INFO image loaded
+06/02/2022 12:29:08 PM INFO Image Array Length = 105
+06/02/2022 12:29:08 PM INFO Dicom Array Length = 105
+06/02/2022 12:29:08 PM DEBUG Accessing image at index 0
+06/02/2022 12:29:08 PM INFO image loaded
+06/02/2022 12:29:08 PM DEBUG Accessing image at index 0
+06/02/2022 12:29:08 PM INFO image loaded
+06/02/2022 12:29:08 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:29:08 PM DEBUG Database file found. updating now
+06/02/2022 12:29:08 PM INFO window resize
+06/02/2022 12:29:08 PM INFO Display window default loaded
+06/02/2022 12:29:08 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 12:29:08 PM DEBUG Database file found. updating now
+06/02/2022 12:29:08 PM INFO window resize
+06/02/2022 12:29:08 PM DEBUG Accessing image at index 10
+06/02/2022 12:29:08 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 10
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 11
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 11
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 12
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 12
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 14
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 14
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 16
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 16
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 17
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 17
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 20
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 20
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 22
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 22
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 25
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 25
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 26
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 26
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 27
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 27
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 28
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 28
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 29
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 29
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 30
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 30
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:09 PM DEBUG Accessing image at index 32
+06/02/2022 12:29:09 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 32
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 33
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 33
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 35
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 35
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 37
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 37
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 38
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 38
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 40
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 40
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 42
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 42
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 44
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 44
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 46
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 46
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 47
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 47
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 48
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 48
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 50
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 50
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 51
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 51
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 53
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 53
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 54
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 54
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 56
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 56
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 57
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 57
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 59
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 59
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 60
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 60
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 62
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 62
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 63
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 63
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 65
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 65
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 66
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 66
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 68
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 68
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 69
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 69
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 70
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 70
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 71
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 71
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 72
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 72
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 73
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 73
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 74
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 74
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 76
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 76
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 77
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 77
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 78
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 78
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 80
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 80
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 82
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 82
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 83
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 83
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 85
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 85
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 86
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 86
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 88
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 88
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 90
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 90
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 92
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 92
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 94
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 94
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 96
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 96
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 99
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 99
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 100
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 100
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 103
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 103
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:10 PM DEBUG Accessing image at index 104
+06/02/2022 12:29:10 PM INFO image loaded
+06/02/2022 12:29:11 PM INFO GUI exec Successful
+06/02/2022 12:29:11 PM INFO END SESSION 
+
+
+06/02/2022 01:26:51 PM INFO Log Setup Success
+06/02/2022 01:26:51 PM INFO startup success
+06/02/2022 01:26:51 PM INFO Model class created
+06/02/2022 01:27:11 PM INFO Log Setup Success
+06/02/2022 01:27:11 PM INFO startup success
+06/02/2022 01:27:11 PM INFO Model class created
+06/02/2022 01:27:11 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 01:27:11 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 01:27:11 PM DEBUG sql select successful
+06/02/2022 01:27:11 PM INFO Display window Created
+06/02/2022 01:27:11 PM INFO View object created successfully
+06/02/2022 01:27:11 PM INFO Controller object initialised
+06/02/2022 01:27:11 PM INFO GUI init Successful
+06/02/2022 01:27:11 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 01:27:11 PM DEBUG Database file found. updating now
+06/02/2022 01:27:11 PM INFO window resize
+06/02/2022 01:27:11 PM INFO Excecuting GUI Thread
+06/02/2022 01:27:13 PM INFO Data structures reset
+06/02/2022 01:27:16 PM DEBUG Valid folder selection
+06/02/2022 01:27:16 PM DEBUG misc array populated
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-169'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-173'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-177'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-181'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-185'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-189'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'191 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'187 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'183 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'179 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'175 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'171 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'167 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'163 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'159 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'155 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'227 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'151 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'147 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'143 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'139 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'135 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'131 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'127 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'123 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'119 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'115 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'223 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'111 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'107 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'103 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'99'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'95'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'91'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'87'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'83'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'79'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'75'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'219 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'71'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'67'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'63'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'59'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'55'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'51'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'47'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'43'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'39'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'35'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'215 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'31'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'27'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'23'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'19'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'15'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'11'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'7 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'3 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-1'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-5'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'211 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-9'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-13 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-17 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-21 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-25 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-29 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-33 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-37 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-41 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-45 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'207 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-49 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-53 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-57 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-61 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-65 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-69 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-73 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-77 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-81 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-85 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'203 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-89 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-93 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-97 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-101'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-105'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-109'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-113'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-117'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-121'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-125'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'199 '
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-129'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-133'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-137'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-141'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-145'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-149'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-153'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-157'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-161'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'-165'
+06/02/2022 01:27:16 PM DEBUG dicom file appended: b'195 '
+06/02/2022 01:27:16 PM DEBUG misc array populated
+06/02/2022 01:27:16 PM DEBUG misc array populated
+06/02/2022 01:27:16 PM INFO Dicom Array Sorted
+06/02/2022 01:27:17 PM DEBUG Size of Image Array = 920
+06/02/2022 01:27:17 PM INFO image loaded
+06/02/2022 01:27:17 PM INFO Image Array Length = 105
+06/02/2022 01:27:17 PM INFO Dicom Array Length = 105
+06/02/2022 01:27:17 PM DEBUG Accessing image at index 0
+06/02/2022 01:27:17 PM INFO image loaded
+06/02/2022 01:27:17 PM DEBUG Accessing image at index 0
+06/02/2022 01:27:17 PM INFO image loaded
+06/02/2022 01:27:17 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 01:27:17 PM DEBUG Database file found. updating now
+06/02/2022 01:27:17 PM INFO window resize
+06/02/2022 01:27:17 PM INFO Display window default loaded
+06/02/2022 01:27:17 PM DEBUG home address at: C:\Users\Alex
+06/02/2022 01:27:17 PM DEBUG Database file found. updating now
+06/02/2022 01:27:17 PM INFO window resize
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 0
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 1
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 1
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 2
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 2
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 3
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 3
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 4
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 4
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 5
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 5
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 7
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 7
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 8
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 8
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 9
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 9
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 10
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 10
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 11
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 11
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 12
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 12
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 13
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 13
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 14
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 14
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 15
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 15
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 16
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 16
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 17
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 17
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 18
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 18
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 19
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 19
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 21
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 21
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 22
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 22
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 24
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 24
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 26
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 26
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 27
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 27
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 29
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 29
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 30
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 30
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 31
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 31
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 32
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 32
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 33
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 33
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 34
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 34
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 35
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 35
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 36
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 36
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 38
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 38
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 40
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 40
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 42
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 42
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 44
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 44
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 47
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 47
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 49
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 49
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 52
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 52
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 54
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 54
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 56
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 56
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 58
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 58
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 59
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 59
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 61
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 61
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 62
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 62
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 63
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 63
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 64
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 64
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 66
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 66
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 67
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 67
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 69
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 69
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 70
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 70
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 72
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 72
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 73
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 73
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 75
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:18 PM DEBUG Accessing image at index 75
+06/02/2022 01:27:18 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 76
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 76
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 77
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 77
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 78
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 78
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 79
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 79
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 80
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 80
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 81
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 81
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 83
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 83
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 86
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 86
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 88
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 88
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 90
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 90
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 92
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 92
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 94
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 94
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 97
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 97
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 100
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 100
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 103
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 103
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:19 PM DEBUG Accessing image at index 104
+06/02/2022 01:27:19 PM INFO image loaded
+06/02/2022 01:27:20 PM INFO GUI exec Successful
+06/02/2022 01:27:20 PM INFO END SESSION 
+
+

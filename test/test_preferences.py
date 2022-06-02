@@ -1,7 +1,7 @@
 import pytest
 import os
 
-from View.Preferences import *
+from View.preferences import *
 
 
 def test_home_address_fail():
@@ -10,7 +10,7 @@ def test_home_address_fail():
     only outputs the home directory of the user
     """
     test_path = os.getcwd()
-    assert str(getHomeAddress()) != test_path
+    assert str(get_home_address()) != test_path
 
 
 def test_get_home_address():
@@ -20,10 +20,10 @@ def test_get_home_address():
     (e.g. 'C:/Users/alex')
     """
     test_path = os.path.expanduser('~')
-    assert str(getHomeAddress()) == test_path
+    assert str(get_home_address()) == test_path
 
     test_path = str(Path.home())
-    assert str(getHomeAddress()) == test_path
+    assert str(get_home_address()) == test_path
 
 
 def test_get_data_no_database():
@@ -44,7 +44,8 @@ def test_get_data_no_database():
     host machine where the database already
     exists
     """
-    assert getData() == [(1500, 500)]
+    assert get_data() == [(1500, 500)]
+    # read the comments above before debugging
 
 
 def test_insert_data_no_database():
@@ -58,8 +59,8 @@ def test_insert_data_no_database():
     os.remove(database_path)
     os.rmdir(folder_path)
 
-    insertData(1, 1)
-    assert getData() == [(1, 1)]
+    insert_data(1, 1)
+    assert get_data() == [(1, 1)]
 
 
 def test_database_create():
@@ -72,7 +73,7 @@ def test_database_create():
     database_path = os.path.join(os.path.expanduser('~'), '.OnkoMiniproject/Onko.db')
     os.remove(database_path)
     os.rmdir(folder_path)
-    databaseCreate()
+    database_create()
 
 
 def test_get_data_exists():
@@ -80,7 +81,7 @@ def test_get_data_exists():
     Test to see if something exists within the database
     to make sure it is created properly
     """
-    assert getData() != [(0, 0)]
+    assert get_data() != [(0, 0)]
 
 
 def test_get_data_default_values():
@@ -88,12 +89,12 @@ def test_get_data_default_values():
     Test default values for the database to ensure it is
     created properly
     """
-    assert getData() == [(1500, 500)]
+    assert get_data() == [(1500, 500)]
 
 
 def test_get_data():
     """
     Test to see if the data within the database is changed based on insertData
     """
-    insertData(1, 1)
-    assert getData() == [(1, 1)]
+    insert_data(1, 1)
+    assert get_data() == [(1, 1)]

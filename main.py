@@ -1,12 +1,14 @@
 """The main file of the Onko mini project. Running this file executes the program"""
 
+import logging
 import sys
 import PySide6
-from Controller.Controller import Controller
-from Controller.Setup import *
+from Controller.controller import Controller
+from Controller.setup import log_setup
+
 
 if __name__ == "__main__":
-    logSetup("OnkoLog.log")
+    log_setup("OnkoLog.log")
     logging.info("Log Setup Success")
     # ROOT DIRECTORY SETUP (not used in code, but is nice to have)
     root_dir = sys.argv[0]
