@@ -45,6 +45,7 @@ def test_get_data_no_database():
     exists
     """
     assert get_data() == [(1500, 500)]
+    # read the comments above before debugging
 
 
 def test_insert_data_no_database():

@@ -10,7 +10,7 @@ def test_log_setup():
     Test to make sure that if the right
     parameters are met that 1 is returned
     """
-    assert logSetup('OnkoLog.log') == 1
+    assert log_setup('OnkoLog.log') == 1
 
 
 
